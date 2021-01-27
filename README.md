@@ -9,9 +9,12 @@ I've used a React Starter template to easily get started with my app.
 
 I've choosen to approach the problem in the following way:
 First I make a fetch to the API where I collect the data neccessary.
-I then map over the data to render a list of the specific part of the data in a card-component.
+This fetch is executed in HomePage.js and the data is sent in as props to a list-item component.
+I choose to deconstruct the props to avoid having to write props.name etc.
 
-The card-component is made by styled components and could be used again if wanted.
+The list-item component is then rendered in a ul-component on a homepage which is then rendered in App.js.
+This is not neccessary, you could choose to render the ul-component directly in App.
+I chose to render it in a homepage first to keep the code in app.js to a minimum.
 
 ## TECH
 - JavaScript
