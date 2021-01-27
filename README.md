@@ -1,19 +1,19 @@
-# Technigo React Starter App
+## CODETEST RETAINER DESK
+This is a codetest for Retainer Desk. 
+I've used a React Starter template to easily get started with my app.
 
-This app has been generated using `create-react-app`, then cleaned up a little so we have a project with just the elements we need to get started.
+## THE PROBLEM
+- Make an application with a free choose of code base
+- Do a call to API
+- List all employees in a list that looks good
 
-Add components in the `src` folder and use them in `src/app.js` to get started.
+I've choosen to approach the problem in the following way:
+First I make a fetch to the API where I collect the data neccessary.
+I then map over the data to render a list of the specific part of the data in a card-component.
 
-## Usage
+The card-component is made by styled components and could be used again if wanted.
 
-1. On GitHub, click the 'use this template' button to create a new repo on your account
-1. Clone the new repo to your computer
-1. Install required dependencies with npm: `npm install`
-1. Start the project: `npm start`
-
-Alternatively, if you don't want a new git repo on your account;
-
-1. Download & extract the [latest release](https://github.com/Technigo/react-starter/releases/latest) from GitHub
-1. Open the directory in the terminal: `cd /path/to/react-starter`
-1. Install required dependencies with npm: `npm install`
-1. Start the project: `npm start`
+## TECH
+- JavaScript
+- React
+- Styled Components
